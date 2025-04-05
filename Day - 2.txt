@@ -1,0 +1,20 @@
+Problem Statement : Get Subscription (DIFF500)
+
+Code :
+t = int(input())
+for _ in range(t):
+    x = int(input())
+    if x > 30:
+        print("YES")
+    else:
+        print("NO")
+
+
+Problem Statement : Police and Thief (DIFF500-1000)
+
+Code:
+t = int(input())
+for _ in range(t):
+    x, y = map(int, input().split())
+    result = abs(x - y)
+    print(result)
