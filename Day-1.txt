@@ -1,0 +1,28 @@
+problem statement - IPL Ticket Rush (500 DIF LEVEL)
+
+Code :
+t = int(input())
+for i in range(t):
+    n, m = map(int, input().split())
+    if n > m:
+        print(n - m)
+    else:
+        print(0)
+
+
+Problem Statement : Weights
+
+Code :
+
+t = int(input())
+for i in range(t):
+    w, x, y, z = map(int, input().split())
+    if (w == x or w == y or w == z or
+        w == x + y or w == x + z or w == y + z or
+        w == x + y + z):
+        print("YES")
+    else:
+        print("NO")
+
+
+
