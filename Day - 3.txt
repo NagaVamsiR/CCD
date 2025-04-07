@@ -1,0 +1,23 @@
+Problem : Kitchen Timings (DIFF500)
+
+Code:
+t=int(input())
+for _ in range(t):
+    x,y=map(int, input().split())
+    print(y - x)
+
+
+
+
+
+Problem : Minimum Cars required
+
+
+Code:
+ T = int(input())
+for _ in range(T):
+    N = int(input())
+    cars = (N + 3) // 4
+    print(cars)
+
+
