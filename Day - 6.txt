@@ -1,0 +1,32 @@
+Problem : Bidding(DIFF500)
+
+
+Code: 
+t=int(input())
+for _ in range(t):
+    A,B,C=map(int, input().split())
+    if A > B and A > C:
+        print("Alice")
+    elif B > A and B > C:
+        print("Bob")
+    else:
+        print("Charlie")
+
+
+
+
+Problem: It is My Serve(DIFF800)
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    p,q=map(int, input().split())
+    total = p + q
+    if (total // 2) % 2 == 0:
+        print("Alice")
+    else:
+        print("Bob")
+
+
+
