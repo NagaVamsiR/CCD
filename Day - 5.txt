@@ -1,0 +1,20 @@
+Problem : Waiting Time(DIFF500)
+
+Code:
+T = int(input())
+for _ in range(T):
+    K, X = map(int, input().split())
+    Result = (K * 7) - X
+    print(Result)
+
+
+
+
+Problem : Count the Notebooks(DIFF800)
+
+Code:
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    result=n * 10
+    print(result)
