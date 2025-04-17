@@ -1,0 +1,18 @@
+Problem : Car Trip
+
+Code:
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    cost = max(300, X) * 10
+    print(cost)
+
+
+
+Problem : The Cooler Dilemma 2
+
+Code:
+T = int(input())
+for _ in range(T):
+    X, Y = map(int, input().split())
+    print((Y - 1) // X)
