@@ -1,0 +1,24 @@
+Problem: Good Investment or Not(DIFF500)
+
+Code:
+T = int(input())
+for _ in range(T):
+    X, Y = map(int, input().split())
+    if X >= 2 * Y:
+        print("YES")
+    else:
+        print("NO")
+
+
+Problem : Dracula Eats
+
+Code:
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    if N < 2:
+        print(0)
+    else:
+        tuesdays = ((N - 2) // 7) + 1
+        print(tuesdays)
