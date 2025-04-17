@@ -1,0 +1,21 @@
+Problem : Kitchen Timings
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    x,y=map(int, input().split())
+    print(y - x)
+
+
+Problem: Greater Average
+
+Code:
+T = int(input())
+for _ in range(T):
+    A, B, C = map(int, input().split())
+    avg = (A + B) / 2
+    if avg > C:
+        print("YES")
+    else:
+        print("NO")
