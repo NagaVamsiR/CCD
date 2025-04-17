@@ -1,0 +1,22 @@
+Problem : Reach the Target
+
+
+Code:
+T = int(input())
+for _ in range(T):
+    X, Y = map(int, input().split())
+    print(X - Y)
+
+
+
+Problem : Janmansh and Assignments
+
+Code:
+
+t=int(input())
+for _ in range(t):
+    x=int(input())
+    if x > 7:
+        print("No")
+    else:
+        print("Yes")
