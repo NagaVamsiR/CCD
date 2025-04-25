@@ -1,0 +1,22 @@
+Problem : Parliament
+
+
+
+Code:
+import math
+T = int(input())
+for _ in range(T):
+    N, X = map(int, input().split())
+    required = math.ceil(N / 2)
+    print("YES" if X >= required else "NO")
+
+
+
+Problem : Chef Fantasy 11
+
+Code:
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    print(N * (N - 1))
