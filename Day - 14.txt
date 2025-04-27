@@ -1,0 +1,25 @@
+Problem : Bull and Bear 
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    X,Y=map(int, input().split())
+   if Y > X:
+        print("PROFIT")
+    elif Y < X:
+        print("LOSS")
+    else:
+        print("NEUTRAL")
+
+
+
+Problem: Reach Fast 
+
+Code:
+t=int(input())
+for _ in range(t):
+    a,b,k=map(int, input().split())
+    distance = abs(a - b)
+    steps = (distance + k - 1) // k
+    print(steps)
