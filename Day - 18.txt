@@ -1,0 +1,25 @@
+Problem : Candy Division
+
+
+Code:
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    if n % 3 == 0:
+        print("YES")
+    else:
+        print("NO")
+
+
+
+
+PRoblem: Mario and Bullet
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    x,y,z=map(int, input().split())
+    time = y // x
+    waittime=max(0, z - time)
+    print(waittime)

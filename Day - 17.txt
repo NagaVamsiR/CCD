@@ -1,0 +1,21 @@
+Problem:Parliament
+
+
+Code:
+import math
+T = int(input())
+for _ in range(T):
+    N, X = map(int, input().split())
+    required = math.ceil(N / 2)
+    print("YES" if X >= required else "NO")
+
+
+problem:Reach fast
+
+Code:
+t=int(input())
+for _ in range(t):
+    a,b,k=map(int, input().split())
+    distance = abs(a - b)
+    steps = (distance + k - 1) // k
+    print(steps)

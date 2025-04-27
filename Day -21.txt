@@ -1,0 +1,25 @@
+Problem : Masterchef finals
+
+
+Code:
+t = int(input())
+for _ in range(t):
+    x = int(input())
+    if x <= 10:
+        print("YES")
+    else:
+        print("NO")
+
+
+Problem : Janmansh and Assignments
+
+
+Code:
+
+t=int(input())
+for _ in range(t):
+    x=int(input())
+    if x > 7:
+        print("No")
+    else:
+        print("Yes")

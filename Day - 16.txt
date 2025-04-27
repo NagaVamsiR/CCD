@@ -1,0 +1,25 @@
+Problem :Enormous Input Test
+
+
+
+Code:
+(n, k) = map(int, input().split())
+ans = 0
+
+for i in range(n):
+	x = int(input())
+	if x % k == 0:
+		ans += 1
+
+print(ans)	
+
+
+
+
+Problem : The Cooler Dilemma 2
+
+Code:
+T = int(input())
+for _ in range(T):
+    X, Y = map(int, input().split())
+    print((Y - 1) // X)
