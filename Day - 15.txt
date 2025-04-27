@@ -1,0 +1,26 @@
+problem :Chairs Requirement
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    x,y=map(int, input().split())
+    if x>y:
+        print(x - y)
+    else:
+        print(0)
+
+
+
+Problem: Chef ERen
+
+
+Code:
+
+T = int(input())
+for _ in range(T):
+    N, A, B = map(int, input().split())
+    odd = (N + 1) // 2
+    even = N // 2
+    total_duration = odd * B + even * A
+    print(total_duration)
