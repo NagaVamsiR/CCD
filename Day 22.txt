@@ -1,0 +1,25 @@
+Problem : Determine the Score
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    x,n=map(int, input().split())
+    result = (x // 10) * n
+    print(result)
+
+
+
+Problem: Chef and NextGen
+  
+
+Code:
+T = int(input())
+for _ in range(T):
+    A, B, X, Y = map(int, input().split())
+    requiredpower = A * B
+    availablepower = X * Y
+    if availablepower >= requiredpower:
+        print("Yes")
+    else:
+        print("No")
