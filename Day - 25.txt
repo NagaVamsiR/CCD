@@ -1,0 +1,27 @@
+Problem : Just One More Episode
+
+
+Code:
+t=int(input())
+for _ in range(t):
+    x=int(input())
+    if x > 24:
+        print("Yes")
+    else:
+        print("No")
+
+
+
+Problem : Exams
+
+
+Code: 
+
+T = int(input())
+for _ in range(T):
+    X, Y, Z = map(int, input().split())
+    total_students = X * Y
+    if Z > total_students // 2:
+        print("YES")
+    else:
+        print("NO")

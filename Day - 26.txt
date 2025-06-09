@@ -1,0 +1,25 @@
+Problem : Codechef Airlines
+
+
+Code:
+T = int(input())
+for _ in range(T):
+    X, Y, Z = map(int, input().split())
+    total_seats = 10 * X
+    people_who_can_book = min(total_seats, Y)
+    earnings = people_who_can_book * Z
+    print(earnings)
+
+
+
+
+Problem : Get Lowest Free
+
+
+Code:
+T = int(input())
+for _ in range(T):
+    A, B, C = map(int, input().split())
+    total = A + B + C
+    lowest = min(A, B, C)
+    print(total - lowest)

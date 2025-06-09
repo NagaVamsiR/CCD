@@ -1,0 +1,34 @@
+Problem : Spice Level
+
+
+Code :
+T = int(input())
+
+for _ in range(T):
+    X = int(input())
+    if X < 4:
+        print("MILD")
+    elif X < 7:
+        print("MEDIUM")
+    else:
+        print("HOT")
+
+
+
+Problem : Single-use Attack
+
+
+
+Code: 
+
+T = int(input())
+
+for _ in range(T):
+    H, X, Y = map(int, input().split())
+    normal = (H + X - 1) // X
+    if H <= Y:
+        special = 1
+    else:
+        special = 1 + (H - Y + X - 1) // X
+    print(min(normal, special))
+

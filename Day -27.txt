@@ -1,0 +1,28 @@
+Problem :It is My Serve
+
+
+Code :
+t=int(input())
+for _ in range(t):
+    p,q=map(int, input().split())
+    total = p + q
+    if (total // 2) % 2 == 0:
+        print("Alice")
+    else:
+        print("Bob")
+
+
+
+Problem : Passes for Fair
+
+
+Code :
+
+T = int(input())
+
+for _ in range(T):
+    N, K = map(int, input().split())
+    if K >= N + 1:
+        print("YES")
+    else:
+        print("NO")

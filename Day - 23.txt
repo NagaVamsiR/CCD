@@ -1,0 +1,36 @@
+Problem : Audible Range
+
+Code:
+MINFREQ = 67
+MAXFREQ = 45000
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    if MINFREQ <= X <= MAXFREQ:
+        print("YES")
+    else:
+        print("NO")
+
+
+
+Problem : Complementary Strand in a DNA
+
+
+Code :
+T = int(input())
+
+for _ in range(T):
+    N = int(input())
+    S = input()
+    result = ""
+    for ch in S:
+        if ch == 'A':
+            result += 'T'
+        elif ch == 'T':
+            result += 'A'
+        elif ch == 'C':
+            result += 'G'
+        elif ch == 'G':
+            result += 'C'
+    print(result)
+
