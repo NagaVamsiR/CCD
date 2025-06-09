@@ -1,0 +1,24 @@
+problem : Bob at the Bank
+
+
+Code : 
+T = int(input())
+for _ in range(T):
+    W, X, Y, Z = map(int, input().split())
+    final_balance = W + (X - Y) * Z
+    print(final_balance)
+
+
+
+Problem : Recent contest problems
+
+
+Code:
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    contests = input().split() 
+    count_start38 = contests.count("START38")
+    count_ltime108 = contests.count("LTIME108")
+    print(count_start38, count_ltime108)

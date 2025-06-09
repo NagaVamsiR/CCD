@@ -1,0 +1,23 @@
+Problem : Puzzle Hunt
+
+
+Code : 
+
+N = int(input())
+if 6 <= N <= 8:
+    print("Yes")
+else:
+    print("No")
+
+
+
+Problem : Nearest Exit
+
+Code :
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    if X - 1 < 100 - X:
+        print("LEFT")
+    else:
+        print("RIGHT")

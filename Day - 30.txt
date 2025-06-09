@@ -1,0 +1,28 @@
+Problem : Four Tickets
+
+
+Code :
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    if 4 * X <= 1000:
+        print("YES")
+    else:
+        print("NO")
+
+
+
+Problem : Water Mixing
+
+
+Code :
+T = int(input())
+for _ in range(T):
+    A, B, X, Y = map(int, input().split())
+    D = B - A
+    if D == 0:
+        print("YES")
+    elif D > 0:
+        print("YES" if X >= D else "NO")
+    else:
+        print("YES" if Y >= -D else "NO")
